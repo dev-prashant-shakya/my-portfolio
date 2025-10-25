@@ -1,0 +1,120 @@
+.contactContainer,
+.proContactContainer {
+    max-width: 1120px;
+    margin: auto;
+}
+.proContactContainer {
+    text-align: center;
+    padding-top: 70px;
+}
+.contactContainer {
+    padding: 80px 0;    
+    justify-content: space-between;
+    display: flex;
+}
+.contactHeading {
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 700;
+}
+.contactPara {
+    font-size: 25px;
+    margin-top: 15px;
+    color: #fdffd3;
+    letter-spacing: 2px;
+}
+.label {
+    margin-bottom: 10px;
+}
+.label label {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #2e2e2e;
+}
+.label span {
+    color: red;
+    font-size: 14px;
+}
+.formInput {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 40px;
+    margin-bottom: 20px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+}
+.submitBtn:disabled {
+    background-color: #ccc;
+    pointer-events: none;
+}
+.submitBtn {
+    background: var(--theme-img-color);
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.inputWrap:last-of-type .formInput {
+    height: 100px;
+}
+.socialContainer {
+    background-color: #efefef;
+    padding: 30px 30px 15px;
+}
+.socialMedia {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.socialItems {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 5px 15px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    color: #2e2e2e;
+    text-decoration: none;
+}
+.socialText {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.socialItems img {
+    width: 30px;
+    height: 30px;
+}
+.contactWrap {
+    width: 65%;
+    max-width: 65%;
+    padding-right: 40px;
+}
+.socialWrap {
+    width: 35%;
+    max-width: 35%;
+}
+.successMsg,
+.errorMsg {
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+.successMsg {
+    color: #00ee00;
+}
+.errorMsg {
+    color: #ff0000;
+}
+.contactForm {
+    padding: 2.5rem;
+    background-color: #efefef;
+}

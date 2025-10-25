@@ -1,0 +1,106 @@
+.techNewsContainer {
+    max-width: 1120px;
+    margin: 30px auto 0;
+}
+
+.techNewsWrap {
+    padding: 20px 0 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.newsCard {
+    border: 1px solid #ccc;
+    width: 700px;
+    padding: 0;
+    border-radius: 11px;
+    margin: 0 auto 15px;
+}
+.newsImage {
+    min-height: 120px;
+    max-height: 130px;
+    background: #efefef;
+    padding: 0;
+    border-radius: 11px 11px 0 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.newsImage img {
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+.content {
+    padding: 15px;
+    position: relative;
+}
+.content .cardHeading {
+    font-size: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+.content .cardPara {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+.content .cardLink {
+    color: #0089ff;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.noOfArticles {
+    font-size: 12px;
+    font-weight: 600;
+    max-width: 500px;
+    margin: 25px auto 5px;
+    text-align: center;
+    color: #00bf00;
+}
+
+.placeHolder {
+    text-align: center;
+    margin: auto;
+    height: 250px;
+    margin-top: 25px;
+}
+
+.placeHolder h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.placeHolder p {
+    font-size: 16px;
+}
+.author,
+.comments {
+    background-color: #efefef;
+    padding: 3px 8px;
+    border-radius: 4px;
+    color: #0089ff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.removePost {
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #ddd;
+    color: #fff;
+    border: none;
+    padding: 4px 9px;
+    border-radius: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 3px 4px 5px -1px rgb(0 0 0 / 48%);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}

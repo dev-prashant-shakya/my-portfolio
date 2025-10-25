@@ -1,0 +1,81 @@
+.resumeHeader {
+    background-image: var(--theme-img-color);
+    min-height: 250px;
+}
+.resumeContainer,
+.resumeHeaderContainer {
+    max-width: 1120px;
+    margin: auto;
+}
+.resumeContainer {
+    text-align: center;
+    padding-top: 70px;
+}
+.resumeHeaderContainer {
+    padding: 80px 0 45px;
+}
+.resumeHeading {
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 700;
+}
+.resumePara {
+    font-size: 25px;
+    margin-top: 15px;
+    color: #fdffd3;
+    letter-spacing: 2px;
+}
+.frameWrap,
+.resumeMakingWeb {
+    width: 50%;
+}
+.makingDetails {
+    background-color: #efefef;
+    padding: 50px;
+}
+.resumeinsHeading {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.resumeinsPara {
+    font-size: 18px;
+    color: #ccc;
+}
+.Image {
+    width: 200px;
+}
+.resumeMaker img {
+    width: 100%;
+}
+.resumeWrapInner {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.resumeWrapInner p {
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 40px;
+    text-align: justify;
+    margin: 0 auto 2rem;
+    color: #484848;
+}
+.resumeWrapInner .clickTxt {
+    margin: 20px 0 35px;
+    color: #00ee00;
+    font-weight: 700;
+    text-align: center;
+}
+.downloadBtn {
+    background: var(--theme-img-color);
+    color: #000;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.downloadResume {
+    margin-bottom: 30px;
+}

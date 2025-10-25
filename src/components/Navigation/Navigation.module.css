@@ -1,0 +1,66 @@
+.navLinks {
+    padding: 10px;
+}
+.navUl {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    margin: 0 auto;
+}
+.navUl li {
+    list-style-type: none;
+    position: relative;
+    overflow: hidden;
+}
+.navUl li::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 1px;
+    background-color: #272727;
+    left: -100%;
+    transition: 0.3s;
+}
+.navUl li:hover::before {
+    left: 100%;
+}
+.navUl li a {
+    text-decoration: none;
+    color: transparent;
+    font-size: 1.5rem;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+}
+.navUl li a::before {
+    content: attr(data-content);
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--theme-color);
+    padding: 10px;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+    transition: all 0.4s;
+    transition-delay: 0.2s;
+    text-shadow: 2px 3px 3px #ccc;
+}
+.navUl li a::after {
+    content: attr(data-content);
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #000;
+    padding: 10px;
+    clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
+    transition: all 0.4s;
+    transition-delay: 0.2s;
+    text-shadow: 2px 3px 3px #ccc;
+}
+.navUl li a:hover::before {
+    transform: translate(4px, -1px);
+}
+.navUl li a:hover::after {
+    transform: translate(-4px, 1px);
+}

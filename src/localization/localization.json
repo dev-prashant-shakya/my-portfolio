@@ -1,0 +1,125 @@
+{
+    "navigationText": {
+        "Localization": {
+            "logo": "Prashant",
+            "navAbout": "👽 About Me",
+            "navExpertise": "💼 Projects",
+            "navTechnologies": "💻 Technologies",
+            "navResume": "📑 Resume",
+            "navConnect": "📞 Connect",
+            "navNews": "📺 Tech News"
+        }
+    },
+    "aboutPageText": {
+        "Localization": {
+            "aboutTagLine": "👉 Choose a job you love, and you will never have to work a day in your life.",
+            "tagLineWriter": "― Confucius",
+            "portFolioOwner": "Prashant Shakya",
+            "aboutPortFolioOwner": "I am a seasoned software engineer with over 5 years of experience in developing innovative solutions for complex business problems. Throughout my career, I have had the opportunity to work with some of the best minds in the industry and have gained a deep understanding of the software development life cycle.",
+            "aboutJourneyHeading": "How It All Started 🚀",
+            "aboutJourneyFirstPara": "🌏My web development journey began in 2016 with HTML and CSS, where I discovered the enchanting power of design. Soon, I was crafting websites for friends' businesses, leading to opportunities with town business leaders.",
+            "aboutJourneySecondPara": "🌏Transitioning from jQuery to JavaScript, I delved into the intricate workings of web development. React JS became my chosen tool for dynamic front-end experiences. Looking forward, I aspire to become a full-stack developer by mastering Node.js, aiming to contribute substantial value to future projects and companies. Each step in this evolving journey is a testament to my passion for web development.",
+            "aboutJourneyThirdPara": "🌏Exploring jQuery revealed a veil over the intricate dance of JavaScript. Delving deeper, I immersed myself in JavaScript's magic, understanding its power in crafting dynamic web experiences. With newfound clarity, I aimed for React JS, seeing it as the catalyst to fortify my journey into the future of front-end development.",
+            "aboutImprovingWebHeading": "Improving Web Since 2016 💪",
+            "aboutImprovingWebSubText": "As I have mentioned above, I'm specialized in HTML, CSS, and JavaScript on the frontend, but I'm pretty comfortable with jQuery, ReactJs, WordPress. If you want more information about the projects which I have done to date, please visit the Projects page of my portfolio.",
+            "aboutImprovingWebDevHeading": "Web Development",
+            "aboutImprovingWebDevPara": "Web development involves designing, building, and maintaining websites and web applications using technologies like HTML, CSS, JavaScript, and back-end programming languages. It encompasses both front-end and back-end development.",
+            "aboutImprovingUiArchitectureHeading": "UI Architecture",
+            "aboutImprovingUiArchitecturePara": "UI architecture refers to the structure and organization of a user interface in software development. It defines the components, patterns, and interactions to ensure a cohesive and user-friendly experience.",
+            "aboutImprovingReactHeading": "React / Next Js",
+            "aboutImprovingReactPara": "React.js is a popular JavaScript library used for building interactive user interfaces in web development. Next.js is a framework built on top of React, offering server-side rendering and additional features for faster, SEO-friendly, and scalable web applications.",
+            "aboutImprovingProductManagementHeading": "Product Management",
+            "aboutImprovingProductManagementPara": "Product management involves overseeing the entire lifecycle of a product, from ideation to development, launch, and beyond. Product managers strategize, prioritize features, and ensure successful delivery to meet customer needs and business goals.",
+            "aboutBtnReadMore": "Read More...",
+            "aboutBtnReadLess": "Read Less...",
+            "aboutJourneyImageAltText": "Web Development",
+            "aboutAvatarImageAltText": "Prashant Shakya"
+        }
+    },
+    "contactPageText": {
+        "Localization": {
+            "contactPageHeading": "Connect 📞",
+            "contactPageSubHeading": "Fill out the details to connect",
+            "yourNameLabel": "Your Name",
+            "yourEmailLabel": "Your Email",
+            "yourCompanyLabel": "Your Company",
+            "yourDesignationLabel": "Your Designation",
+            "yourPurposeofConnect": "Your Purpose To Connect",
+            "formSuccessMessage": "Form Submitted Successfully ✅",
+            "formErrorMessage": "Something went wrong! Please try again 🥀",
+            "contactSocialMediaHeading": "Follow me on Social Media",
+            "contactInstaTxt": "Instagram",
+            "contactFaceBookTxt": "LeetCode",
+            "contactLinkedinTxt": "LinkedIn",
+            "contactBoldProTxt": "Bold Pro",
+            "conatactFormSubmitting": "Submitting...",
+            "conatactFormSubmit": "Submit"
+        }
+    },
+    "resumePageText": {
+        "Localization": {
+            "resumePageAboutParaOne": "As a seasoned software engineer with a wealth of experience spanning six years, I have cultivated a versatile skill set that encompasses the dynamic realms of web development. My proficiency extends across key technologies, including HTML, CSS, JavaScript, React.js, Next.js, and SCSS, allowing me to craft innovative and user-centric solutions.",
+            "resumePageAboutParaTwo": "Throughout my career, I have consistently demonstrated an unwavering commitment to excellence in software development. My passion for creating seamless and visually appealing user experiences has been a driving force behind my success. In particular, my expertise in React.js and Next.js has empowered me to build responsive and high-performance web applications that align with the latest industry standards.",
+            "resumePageAboutParaThree": "Beyond technical proficiency, I bring to the table strong leadership capabilities and a proven track record in team management. I have successfully led and collaborated with cross-functional teams, fostering a collaborative and results-driven environment. My adeptness in utilizing project management tools such as Jira, along with version control systems like Git, Bitbucket, and SourceTree, has been instrumental in ensuring streamlined workflows and efficient project delivery.",
+            "resumePageAboutParaFour": "My commitment to staying abreast of emerging technologies and best practices in the ever-evolving field of web development reflects my dedication to professional growth and adaptability. I am enthusiastic about contributing my skills and experiences to projects that demand a combination of technical prowess and effective team leadership.",
+            "downloadResume": "Click on the Button below to download the resume 📑",
+            "resumeDownloaded": "You have downloaded the resume ✅",
+            "downloadBtnText": "Resume 💾",
+            "resumePageHead": "My Resume 📑",
+            "resumePagePara": "Download the resume to know more"
+        }
+    },
+    "projectPageText": {
+        "Localization": {
+            "projectsHead": "Projects 💼",
+            "projectsSbHead": "Amazing Projects Done Till Date",
+            "boldProHead": "Bold.Pro",
+            "boldProPara": "3rd Best Portfolio builder website in the world",
+            "jobHeroHead": "Job Hero",
+            "JobHeroPara": "4th Best resume & coverletter builder website in the world",
+            "flexJobsHead": "Flex Jobs",
+            "flexJobsPara": "Worlds Best Flexible Jobs provider website in the world",
+            "mightyRecruiterHead": "Mighty Recruiter",
+            "mightyRecruiterPara": "Best Recruiter website in the world",
+            "mprHead": "My Perfect Resume",
+            "mprPara": "Best resume builder website in the world",
+            "livecareerHead": "Livecareer",
+            "livecareerPara": "Worlds Top 10 resume builder website",
+            "resumeNowHead": "Resume Now",
+            "resumeNowPara": "Best resume builder website India",
+            "zetyResumeHead": "Zety",
+            "zetyResumePara": "5th Best resume builder website in the world",
+            "perfumaniaHead": "Perfumania",
+            "perfumaniaPara": "Best perfume selling website in the world",
+            "fortivaHead": "Fortiva",
+            "fortivaPara": "Best financial consulting website in the world",
+            "bmoHead": "BMO Harris Bank",
+            "bmoPara": "8th Largest Bank in North America Website",
+            "myPoojaBoxHead": "My Pooja Box",
+            "myPoojaBoxPara": "One of the best Crystal and Pooja items selling website",
+            "twoHubTravelHead": "2Hub Travel",
+            "twoHubTravelPara": "Hotel and Travel finder web application",
+            "collegeDuniaHead": "College Dunia",
+            "collegeDuniaPara": "College Information and Admissions info wesbite",
+            "zoutonsHead": "Zoutons",
+            "zoutonsPara": "Coupons and Deals Finder website in India",
+            "carHpHead": "Car HP",
+            "carHpPara": "Car Buying and Selling Dealers wesbite",
+            "viewProjectText": "View Project"
+        }
+    },
+    "technologiesPage": {
+        "Localization": {
+            "technologiesHead": "Tech Stack 💻",
+            "technologiesPara": "List of Technologies In My Stack"
+        }
+    },
+    "footerText": {
+        "Localization": {
+            "madeInIndiaText": "Made by Prashant Shakya with",
+            "footerHome": "Home",
+            "footerProjects": "Projects",
+            "footerTechnologies": "Technologies"
+        }
+    }
+}

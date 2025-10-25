@@ -1,0 +1,70 @@
+.improvingWeb {
+    padding: 75px 0 50px;
+}
+.improveSecHeading {
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 3px;
+    color: #333;
+}
+.ImprovingWebContainer {
+    max-width: 1120px;
+    margin: auto;
+    padding: 60px 0;
+}
+.improveSecPara {
+    font-size: 16px;
+    margin-bottom: 60px;
+    padding-right: 50px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    color: #888;
+    text-align: justify;
+}
+.improvingCardWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.icons {
+    font-size: 30px;
+}
+.card {
+    border: 1px solid #ccc;
+    width: 22%;
+    padding: 20px 20px 45px;
+    border-radius: 11px;
+    position: relative;
+    height: 365px;
+}
+.card.overflow {
+    padding: 20px;
+    height: 445px;
+}
+.card .cardHeading {
+    font-size: 18px;
+    color: #000;
+    padding: 20px 0;
+}
+.card .cardPara {
+    font-size: 14px;
+    color: #888;
+    letter-spacing: 2px;
+    line-height: 25px;
+    height: 200px;
+    overflow: hidden;
+}
+.card .cardPara.collapsed {
+    height: 100%;
+    overflow: auto;
+}
+.readMore {
+    position: absolute;
+    right: 20px;
+    bottom: 16px;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 4px 0;
+}
+.readMore:hover {
+    text-decoration: underline;
+}

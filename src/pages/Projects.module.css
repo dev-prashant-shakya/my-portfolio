@@ -1,0 +1,67 @@
+.projectsHeader {
+    background-image: var(--theme-img-color);
+    min-height: 250px;
+}
+.projectsContainer,
+.proHeaderContainer {
+    max-width: 1120px;
+    margin: auto;
+}
+.proHeaderContainer {
+    text-align: center;
+    padding-top: 70px;
+}
+.projectHeading {
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 700;
+}
+.projectsPara {
+    font-size: 25px;
+    margin-top: 15px;
+    color: #fdffd3;
+    letter-spacing: 2px;
+}
+.projectsWrap {
+    padding: 80px 0 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.projectsCard {
+    border: 1px solid #ccc;
+    width: 22%;
+    padding: 20px;
+    border-radius: 11px;
+    margin-right: 44px;
+    margin-bottom: 44px;
+}
+.projectsCard:nth-child(4n) {
+    margin-right: 0;
+}
+.projectImage {
+    min-height: 120px;
+    max-height: 120px;
+    background: #efefef;
+    padding: 10px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+}
+.projectImage img {
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+.content .cardHeading {
+    font-size: 18px;
+    margin: 20px 0;
+}
+.content .cardPara {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+.content .cardLink {
+    color: black;
+    font-size: 12px;
+}

@@ -1,0 +1,31 @@
+.colorPicker {
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    position: fixed;
+    bottom: 60px;
+    right: -30px;
+    width: 130px;
+    rotate: 90deg;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.themeA,
+.themeB,
+.themeC {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.themeA {
+    background-color: #B4D4FF;
+}
+.themeB {
+    background-color: #F2AFEF;
+}
+.themeC {
+    background-color: #FFF78A;
+}
