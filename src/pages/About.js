@@ -23,9 +23,10 @@ function AboutMe () {
                     <div className="subHeading">
                         <LightAnimation/>
                     </div>
-                    <p className={classes.details}>{data.aboutPageText.Localization.aboutPortFolioOwner}</p>
+                    <p className={classes.details} dangerouslySetInnerHTML={{__html: data.aboutPageText.Localization.aboutPortFolioOwner}}></p>
                 </div>
             </div>
+            <p className={classes.subdetails} dangerouslySetInnerHTML={{__html: data.aboutPageText.Localization.aboutPortfolioOwnerSub}}></p>
         </div>
         <AboutJourney/>
         <ImprovingWeb/>
