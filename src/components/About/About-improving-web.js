@@ -39,7 +39,7 @@ function ImprovingWeb () {
         <div className={classes.improvingWeb}>
             <h2 className={classes.improveSecHeading}>{data.aboutPageText.Localization.aboutImprovingWebHeading}</h2>
             <div className={classes.ImprovingWebContainer}>
-                <p className={classes.improveSecPara}>{data.aboutPageText.Localization.aboutImprovingWebSubText}</p>
+                <p className={classes.improveSecPara} dangerouslySetInnerHTML={{__html: data.aboutPageText.Localization.aboutImprovingWebSubText}}></p>
                 <div className={classes.improvingCardWrapper}>
                     {cardMap.map((cardItems) => {
                         return (

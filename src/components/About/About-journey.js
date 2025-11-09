@@ -15,17 +15,19 @@ function AboutJourney() {
             <div className={classes.journeyContainer}>
                 <div className={classes.journeyData}>
                     <div className={classes.para}>
-                    <p>{data.aboutPageText.Localization.aboutJourneyFirstPara}</p>
-                    </div>
-                    <div className={classes.para}>
-                    <p>{data.aboutPageText.Localization.aboutJourneySecondPara}</p>
-                    </div>
-                    <div className={classes.para}>
-                    <p>{data.aboutPageText.Localization.aboutJourneyThirdPara}</p>
+                    <p dangerouslySetInnerHTML={{__html: data.aboutPageText.Localization.aboutJourneyFirstPara}}></p>
                     </div>
                 </div>
                 <div className={classes.journeyImage}>
                     <img src={renderImage()} alt={data.aboutPageText.LocalizationaboutJourneyImageAltText} />
+                </div>
+            </div>
+            <div className={classes.journeyContainerSecond}>
+                <div className={classes.para}>
+                    <p dangerouslySetInnerHTML={{__html: data.aboutPageText.Localization.aboutJourneySecondPara}}></p>
+                </div>
+                <div className={classes.para}>
+                    <p dangerouslySetInnerHTML={{__html: data.aboutPageText.Localization.aboutJourneyThirdPara}}></p>
                 </div>
             </div>
         </div>

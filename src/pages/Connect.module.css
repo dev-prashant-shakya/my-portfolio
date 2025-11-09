@@ -68,6 +68,8 @@
 .socialContainer {
     background-color: #efefef;
     padding: 30px 30px 15px;
+    background: var(--theme-img-color);
+    border-radius: 11px;
 }
 .socialMedia {
     font-size: 25px;
@@ -116,5 +118,7 @@
 }
 .contactForm {
     padding: 2.5rem;
-    background-color: #efefef;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 11px;
 }

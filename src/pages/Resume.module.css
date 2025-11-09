@@ -60,6 +60,11 @@
     margin: 0 auto 2rem;
     color: #484848;
 }
+
+strong {
+    font-size: 22px;
+    color: #000;
+}
 .resumeWrapInner .clickTxt {
     margin: 20px 0 35px;
     color: #00ee00;

@@ -97,7 +97,7 @@ const ProjectsItems = [
         image: '../../images/mypoojabox.png',
         heading: 'My Pooja Box',
         para: 'One of the best Crystal and Pooja items selling website',
-        link: 'https://www.bmo.com/en-ca/main/personal/',
+        link: 'https://www.mypoojabox.in/',
         btnText: 'View Project'
     },
     {

@@ -3,9 +3,10 @@
 }
 .improveSecHeading {
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 3px;
-    color: #333;
+    color: #000;
+    font-family: "Lobster Two", sans-serif;
 }
 .ImprovingWebContainer {
     max-width: 1120px;
@@ -13,12 +14,12 @@
     padding: 60px 0;
 }
 .improveSecPara {
-    font-size: 16px;
+    font-size: 22px;
     margin-bottom: 60px;
     padding-right: 50px;
     letter-spacing: 2px;
-    line-height: 28px;
-    color: #888;
+    line-height: 40px;
+    color: #424242;
     text-align: justify;
 }
 .improvingCardWrapper {
@@ -35,6 +36,7 @@
     border-radius: 11px;
     position: relative;
     height: 365px;
+    background: var(--theme-img-color);
 }
 .card.overflow {
     padding: 20px;
@@ -44,6 +46,7 @@
     font-size: 18px;
     color: #000;
     padding: 20px 0;
+    font-family: "Lobster Two", sans-serif;
 }
 .card .cardPara {
     font-size: 14px;
@@ -64,6 +67,7 @@
     font-size: 12px;
     cursor: pointer;
     padding: 4px 0;
+    color: #0b57d0;
 }
 .readMore:hover {
     text-decoration: underline;

@@ -46,6 +46,7 @@
     border-radius: 11px;
     display: flex;
     align-items: center;
+    background: var(--theme-img-color);
 }
 .projectImage img {
     width: 100%;

@@ -13,6 +13,7 @@
 .prev,
 .next {
     background: #ddd;
+    background: var(--theme-img-color);
     border: none;
     padding: 4px 8px;
     border-radius: 4px;

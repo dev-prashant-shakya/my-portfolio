@@ -1,6 +1,9 @@
 .pageHeader {
     background: var(--theme-img-color);
     min-height: 250px;
+    background-image: linear-gradient(var(--theme-img-color), var(--theme-img-color)), url('../../../public/Images/pattern.svg');
+    background-repeat: repeat; /* ensures seamless pattern */
+    background-size: 570px; /* adjust if needed */
 }
 .pageContainer,
 .pageContainer {
@@ -12,9 +15,10 @@
     padding-top: 70px;
 }
 .pageHeading {
-    font-size: 50px;
+    font-size: 65px;
     letter-spacing: 6px;
     font-weight: 700;
+    font-family: "Lobster Two", sans-serif;
 }
 .pagePara {
     font-size: 25px;

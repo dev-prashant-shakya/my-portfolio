@@ -11,6 +11,7 @@ function Navigation () {
                 <NavItems/>
             </nav>
         </div>
+        {/* <img src="../../images/lights.gif"/> */}
     </header>
  )
 }

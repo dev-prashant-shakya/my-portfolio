@@ -1,6 +1,6 @@
 .journeyWrapper {
     margin-top: 60px;
-    padding: 75px 0 0;
+    padding: 75px 0;
     position: relative;
 }
 .journeyWrapper::before {
@@ -18,23 +18,30 @@
     display: flex;
     max-width: 1120px;
     margin: auto;
-    padding: 60px 0;
+}
+
+.journeyContainerSecond {
+    max-width: 1120px;
+    margin: auto;
 }
 .journeyWrapper .journeyHeading {
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 3px;
-    color: #333;
+    color: #000;
+    padding-bottom: 60px;
+    font-family: "Lobster Two", sans-serif;
 }
 .journeyData {
     width: 55%;
 }
-.journeyData .para p {
-    font-size: 16px;
+.journeyData .para p,
+.journeyContainerSecond .para p {
+    font-size: 22px;
     margin-bottom: 30px;
     padding-right: 50px;
     letter-spacing: 2px;
-    line-height: 28px;
+    line-height: 40px;
     color: #424242;
     text-align: justify;
 }

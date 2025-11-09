@@ -28,10 +28,10 @@ function Resume () {
             />
             <div className={classes.resumeHeaderContainer}>
                 <div className={classes.resumeWrapInner}>
-                    <p className={classes.resumeDetails}>{data.resumePageText.Localization.resumePageAboutParaOne}</p>
-                    <p className={classes.resumeDetails}>{data.resumePageText.Localization.resumePageAboutParaTwo}</p>
-                    <p className={classes.resumeDetails}>{data.resumePageText.Localization.resumePageAboutParaThree}</p>
-                    <p className={classes.resumeDetails}>{data.resumePageText.Localization.resumePageAboutParaFour}</p>
+                    <p className={classes.resumeDetails} dangerouslySetInnerHTML={{__html: data.resumePageText.Localization.resumePageAboutParaOne}}></p>
+                    <p className={classes.resumeDetails} dangerouslySetInnerHTML={{__html: data.resumePageText.Localization.resumePageAboutParaTwo}}></p>
+                    <p className={classes.resumeDetails} dangerouslySetInnerHTML={{__html: data.resumePageText.Localization.resumePageAboutParaThree}}></p>
+                    <p className={classes.resumeDetails} dangerouslySetInnerHTML={{__html: data.resumePageText.Localization.resumePageAboutParaFour}}></p>
                     {notResumeDownloaded ? 
                     <p className={classes.clickTxt}>{data.resumePageText.Localization.downloadResume}</p>
                     :
