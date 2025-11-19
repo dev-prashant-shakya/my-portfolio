@@ -8,6 +8,7 @@ import Resume from "./pages/Resume";
 import Connect from "./pages/Connect";
 import RootLayout from "./root/Root";
 import TechNews from "./pages/TechNews";
+import GamesPage from "./pages/Games";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
       {path: '/resume', element: <Resume/>},
       {path: '/news', element: <TechNews/>},
       {path: '/connect', element: <Connect/>},
+      {path: '/games', element: <GamesPage/>},
     ]
   }
 ]);

@@ -66,3 +66,32 @@
     color: black;
     font-size: 12px;
 }
+
+@media screen and (max-width: 1100px) {
+    .projectsWrap {
+        flex-direction: column;
+        padding: 40px 20px 35px;
+    }
+
+    .projectsCard {
+        width: 100%;
+    }
+
+    .projectImage img {
+        width: 215px;
+        margin: 0 auto;
+    }
+
+    .projectsCard {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 468px) and (max-width: 1100px) {
+    .projectImage img {
+        width: 215px;
+        mix-blend-mode: multiply;
+        margin: 0 auto;
+    }
+}

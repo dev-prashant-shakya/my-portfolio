@@ -84,3 +84,21 @@ strong {
 .downloadResume {
     margin-bottom: 30px;
 }
+
+@media screen and (max-width: 1100px) {
+    .resumeWrapInner {
+        padding:  0 20px;
+    }
+    .resumeWrapInner p {
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: initial;
+
+        strong {
+            font-size: 18px;
+        }
+    }
+    .resumeHeaderContainer {
+        padding: 40px 0 10px;
+    }
+}

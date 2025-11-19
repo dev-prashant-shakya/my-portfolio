@@ -33,6 +33,11 @@ const linkItems = [
         id: 6,
         to: 'news',
         text: `${data.navigationText.Localization.navNews}`
+    },
+    {
+        id: 7,
+        to: 'games',
+        text: `${data.navigationText.Localization.games}`
     }
 ]
 function NavItems () {

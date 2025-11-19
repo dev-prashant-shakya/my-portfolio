@@ -22,6 +22,7 @@
     right: -145px;
     top: -70px;
     z-index: -1;
+    display: none;
 }
 .tagline {
     font-size: 18px;
@@ -68,5 +69,61 @@
     strong {
       font-size: 22px;
       color: #000;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .wrapper::after {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper::after {
+        display: none;
+    }
+    .tagline {
+        font-size: 14px;
+        max-width: 300px;
+        margin: auto;
+        margin-top: 30px;
+        letter-spacing: 0;
+        color: #a3a3a3;
+        text-align: justify;
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .aboutHeading {
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: normal;
+        margin-top: 30px;
+    }
+    .writer {
+        margin-top: 8px;
+        font-size: 18px;
+    }
+    .details,
+    .subdetails {
+        font-size: 18px;
+        max-width: 100%;
+        line-height: 30px;
+        letter-spacing: initial;
+        text-align: justify;
+        margin: 30px auto 0;
+        padding: 0 30px;
+
+        strong {
+            font-size: 18px;
+        }
     }
 }

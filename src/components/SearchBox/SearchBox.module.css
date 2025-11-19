@@ -14,3 +14,9 @@
     outline: 2px solid #0089ff;
     border: 1px solid #fff;
 }
+
+@media screen and (max-width: 1100px) {
+    .input {
+        width: 100%;
+    }
+}

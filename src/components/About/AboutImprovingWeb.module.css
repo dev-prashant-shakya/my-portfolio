@@ -72,3 +72,40 @@
 .readMore:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 1100px) {
+    .improvingWeb {
+        padding: 40px 0;
+    }
+    .improveSecHeading {
+        font-size: 30px;
+        padding: 0 15px;
+        letter-spacing: initial;
+    }
+    .ImprovingWebContainer {
+        padding: 30px 0 0;
+    }
+    .improveSecPara {
+        font-size: 18px;
+        margin-bottom: 60px;
+        padding: 0 20px;
+        letter-spacing: initial;
+        line-height: 30px;
+        color: #424242;
+        text-align: justify;
+
+        strong {
+            font-size: 18px;
+        }
+    }
+
+    .improvingCardWrapper {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

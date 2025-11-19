@@ -42,7 +42,7 @@ function FooterNav() {
         <div className={classes.footerNav}>
             <div className={classes.footerContainer}>
                 <div className={classes.footerLinksWrap} role="contentinfo">
-                    <div className="footer-links">
+                    <div className={classes.footerLinks}>
                         <ul className={classes.footerUl}>
                             {FooterItems.map((FooterLink) => {
                                 return (<li key={FooterLink.id}>

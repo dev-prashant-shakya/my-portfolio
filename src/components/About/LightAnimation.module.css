@@ -83,3 +83,15 @@
         text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
     }
 }
+
+@media screen and (max-width: 1100px) {
+    .lightAnimation {
+        padding: 0 15px;
+        text-align: center;
+        margin: 30px auto 0;
+    }
+
+    .lightAnimation li {
+        font-size: 12px;
+    }
+}

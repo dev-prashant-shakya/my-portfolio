@@ -122,3 +122,22 @@
     border: 1px solid #ccc;
     border-radius: 11px;
 }
+
+@media screen and (max-width: 1100px) {
+    .contactContainer {
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .contactWrap {
+        width: 100%;
+        max-width: 100%;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .socialWrap {
+        width: 100%;
+        max-width: 100%;
+    }
+}
