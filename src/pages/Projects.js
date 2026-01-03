@@ -132,6 +132,22 @@ const ProjectsItems = [
         link: 'https://www.carhp.com/',
         btnText: 'View Project'
     },
+    {
+        id: 17,
+        image: '../../images/stop-watch.AVIF',
+        heading: 'Stop Watch',
+        para: 'Stop Watch Online for events and games',
+        link: '/stop-watch',
+        btnText: 'View Project'
+    },
+    {
+        id: 18,
+        image: '../../images/todo.jpg',
+        heading: 'Todo List Maker',
+        para: 'Todo List for your daily office task',
+        link: '/stop-watch',
+        btnText: 'View Project'
+    },
 ]
 
 function Projects () {

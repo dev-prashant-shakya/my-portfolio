@@ -9,6 +9,7 @@ import Connect from "./pages/Connect";
 import RootLayout from "./root/Root";
 import TechNews from "./pages/TechNews";
 import GamesPage from "./pages/Games";
+import StopWatch from "./pages/StopWatch";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
       {path: '/news', element: <TechNews/>},
       {path: '/connect', element: <Connect/>},
       {path: '/games', element: <GamesPage/>},
+      {path: '/stop-watch', element: <StopWatch/>}
     ]
   }
 ]);
